@@ -1,0 +1,221 @@
+/************************
+global css
+************************/
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+/****************************
+  header css
+****************************/
+header{
+	width: 100%;
+	background-color: #000;
+	padding: 10px 0;
+}
+.nav-link{
+	color: #b0b0b0 !important;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+.nav-link:hover{
+	color: #fff !important;
+}
+
+/****************************
+  banner css
+****************************/
+
+.banner{
+	width: 100%;
+	background-image: url('../img/img01.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.banner-text{
+	height: 90vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+.banner-text h1{
+	margin: 32px 0;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    width: 75%;
+    line-height: 42px;
+
+}
+.banner-text .line{
+	width: 80px;
+    height: 2px;
+    background: #e6e5e3;
+
+}
+.banner-text p{
+	margin: 32px 0;
+    color: #b0b0b0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    width: 68%;
+    line-height: 24px;
+
+}
+.banner-text button{
+	font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    background: transparent;
+    padding: 12px 30px;
+    color: #fff;
+    border: 1px solid #fff;
+
+}
+.banner-text button:hover{
+	background-color: white;
+	color: black;
+}
+
+
+.banner-form{
+	height: 90vh;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+.banner-form .card-header h2{
+	font-family: 'Open Sans', sans-serif;
+	font-family: 700;
+	font-size: 20px;
+	text-align: center;
+
+}
+.banner-form .card-header h2 span{
+	color: #ff9b51;
+	text-transform: uppercase;
+}
+.banner-form .card-body{
+	padding: 1rem 2rem !important;
+}
+.banner-form .card-body input{
+	width: 100%;
+	margin: 20px 0px;
+	border: none;
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 6px;
+	padding-left: 12px;
+}
+.banner-form .card-body input:focus{
+	outline: none;
+}
+.banner-form .card-body input::placeholder{
+	color: #cccccc;
+
+}
+.banner-form .card-header{
+	padding: 1.5rem 1rem;
+}
+.banner-form .card-footer{
+	padding: 0;
+
+}
+.banner-form .card-footer input{
+	width: 100%;
+	height: 60px;
+	border: none;
+	background: #ff9b51;
+	color: white;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+
+}
+.card-footer input:focus{
+	outline: none;
+}
+.banner-form .card-body .last-input{
+	margin-bottom: 32px !important;
+
+}
+.banner-form .card-footer input:focus{
+	outline: none;
+
+
+/****************************
+  social media css
+****************************/
+
+.social-media{
+	background: #fff;
+    padding: 24px 0;
+    box-shadow: 0px 0 10px 0px #0000004d;
+}
+.row-align-items{
+	    align-items: center!important;
+
+}
+.social-media-content h4{
+	margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+.social-media-content p{
+	margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #86878b;
+    width: 90%;
+}
+
+.social-media-icon{
+
+}
+.social-media-icon ul{
+	margin: 0;
+
+}
+
+
+.d-flex{
+	display: flex !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
